@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+#Head{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    margin: 20px 0px 30px 0px;
+}
+#Searchbox{
+    height: 50px;
+    width: 300px;
+    color: blue;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#Sear{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;    
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.Container{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.para{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:indigo;
+    margin-bottom: 15px;
+}
+.err{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    margin-bottom: 15px;
+}
